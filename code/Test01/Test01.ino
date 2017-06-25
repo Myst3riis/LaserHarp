@@ -1,4 +1,4 @@
-#define THRESHOLD 800
+#define THRESHOLD 200
 #define MIDI_CHANNEL 1
 #define NOTE_C2 0x18 //Decimal : 24
 #define NOTE_C#2 0x19
@@ -52,8 +52,16 @@
 #define VELOCITY 0x7F
 int sensorValueA0;
 int sensorValueA1;
+int sensorValueA2;
+int sensorValueA3;
+int sensorValueA4;
+int sensorValueA5;
 boolean on0 = false;
 boolean on1 = false;
+boolean on2 = false;
+boolean on3 = false;
+boolean on4 = false;
+boolean on5 = false;
 
 
 void setup() {
@@ -78,6 +86,10 @@ void loop() {
   //LIGHT SENSOR VERSION
   sensorValueA0 = analogRead(A0);
   sensorValueA1 = analogRead(A1);
+  sensorValueA2 = analogRead(A2);
+  sensorValueA3 = analogRead(A3);
+  sensorValueA4 = analogRead(A4);
+  sensorValueA5 = analogRead(A5);
   Serial.println(sensorValueA0);
   if (sensorValueA0 < THRESHOLD && !on0){
     noteOn(MIDI_CHANNEL, NOTE_C3,0x7F);  
@@ -89,12 +101,48 @@ void loop() {
   }
   Serial.println(sensorValueA1);
   if (sensorValueA1 < THRESHOLD && !on1){
-    noteOn(MIDI_CHANNEL+1, NOTE_E4,0x7F);  
+    noteOn(MIDI_CHANNEL+1, NOTE_E3,0x7F);  
     on1 = true;
   }
   else if(sensorValueA1 >= THRESHOLD && on1){
-    noteOff(MIDI_CHANNEL+1, NOTE_E4);
+    noteOff(MIDI_CHANNEL+1, NOTE_E3);
     on1 = false;
+  }
+  Serial.println(sensorValueA2);
+  if (sensorValueA2 < THRESHOLD && !on2){
+    noteOn(MIDI_CHANNEL+2, NOTE_G3,0x7F);  
+    on2 = true;
+  }
+  else if(sensorValueA2 >= THRESHOLD && on2){
+    noteOff(MIDI_CHANNEL+2, NOTE_G3);
+    on2 = false;
+  }
+  Serial.println(sensorValueA3);
+  if (sensorValueA3 < THRESHOLD && !on3){
+    noteOn(MIDI_CHANNEL+3, NOTE_C4,0x7F);  
+    on3 = true;
+  }
+  else if(sensorValueA3 >= THRESHOLD && on3){
+    noteOff(MIDI_CHANNEL+3, NOTE_C4);
+    on3 = false;
+  }
+    Serial.println(sensorValueA4);
+  if (sensorValueA4 < THRESHOLD && !on4){
+    noteOn(MIDI_CHANNEL+4, NOTE_E4,0x7F);  
+    on4 = true;
+  }
+  else if(sensorValueA4 >= THRESHOLD && on4){
+    noteOff(MIDI_CHANNEL+4, NOTE_E4);
+    on4 = false;
+  }
+  Serial.println(sensorValueA5);
+  if (sensorValueA5 < THRESHOLD && !on5){
+    noteOn(MIDI_CHANNEL+5, NOTE_G4,0x7F);  
+    on5 = true;
+  }
+  else if(sensorValueA5 >= THRESHOLD && on5){
+    noteOff(MIDI_CHANNEL+5, NOTE_G4);
+    on5 = false;
   }
 }
 

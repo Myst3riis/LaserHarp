@@ -55,11 +55,11 @@
 /**
  * Could be modified depending on sensors !
  */
-int numberOfSensors = 5;
-int sensorValues[5] = {0,0,0,0,0};
-boolean on[] = {false, false, false, false, false};
-int sensor[] = {A0,A1,A2,A3,A4};
-int notes[] = {NOTE_C3, NOTE_E3, NOTE_G3, NOTE_A3, NOTE_B3};
+int numberOfSensors = 6;
+int sensorValues[6] = {0,0,0,0,0,0};
+boolean on[] = {false, false, false, false, false, false};
+int sensor[] = {A0,A1,A2,A3,A4,A5};
+int notes[] = {NOTE_C3, NOTE_E3, NOTE_G3, NOTE_A3, NOTE_B3, NOTE_C4};
 
 
 /**==========================================
@@ -87,7 +87,11 @@ void loop() {
   //LIGHT SENSOR VERSION
   for(int i=0; i<numberOfSensors; i++){  
     sensorValues[i] = analogRead(sensor[i]);
-    Serial.println(sensorValues[i]);
+    Serial.print("Sensor ");
+    Serial.print( i);
+    Serial.print(":");
+    Serial.print(sensorValues[i]);
+    Serial.print("\n");
     if (sensorValues[i] < THRESHOLD && !on[i]){
       noteOn(MIDI_CHANNEL + i, notes[i],0x7F);  
       on[i] = true;
