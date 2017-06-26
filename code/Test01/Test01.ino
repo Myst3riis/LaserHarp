@@ -1,4 +1,4 @@
-#define THRESHOLD 200
+#define THRESHOLD 600
 #define MIDI_CHANNEL 1
 #define NOTE_C2 0x18 //Decimal : 24
 #define NOTE_C#2 0x19
