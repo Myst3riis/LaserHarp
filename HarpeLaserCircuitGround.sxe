@@ -1,0 +1,1485 @@
+<document type="ProfiCAD sxe" version="9.0">
+<fonts letter="155,0,0,0,Lucida Sans Unicode,000000" text="110,0,0,0,Lucida Sans Unicode,000000" type="85,0,0,0,Arial,FF00FF" refs="85,0,0,0,Arial,008000" cross_refs="85,0,0,1,Arial,0000FF" outlets="85,0,0,0,Arial,000000" reports="85,0,0,0,Arial,000000"/>
+<PrintSettings PrinterName="" PaperSize="9" FormName="A4" SheetSizeX="202" SheetSizeY="287" WantsCustom="0" CustomSizeX="283" CustomSizeY="203"/>
+<PrintReportSettings PaperSize="9" FormName="A4" SheetSizeX="287" SheetSizeY="202"/>
+<PrinterSettings PaperSizeX="2100" PaperSizeY="2970" PhysicalOffestTenthMm_X="42" PhysicalOffestTenthMm_Y="49"/>
+<tb use="1" name="C:\Users\Public\Documents\ProfiCAD Library\_TB\standard9.ptb"/>
+<PageSettings bgColor="FFFFFF" pgsHor="1" pgsVer="1" pgsMrgn="0, 0, 0, 0" pageMargins="10, 10, 10, 10" zoom="87" frame="YES" rastr="20" showT="YES" showV="YES" includeMargins="YES"/>
+<RefGridSettings FieldSize="50"/>
+<NumberingWire Digits="3" TypeRenumbering="0" ShowWireName="0" WireLabelDist_a="4" WireLabelDist_b="7" WireLabelDist_c="7"/>
+<summary>
+<field name="rev" value=""/>
+<field name="approved" value=""/>
+<field name="lng" value=""/>
+<field name="docType" value=""/>
+<field name="title" value="Laser Harp"/>
+<field name="dep" value=""/>
+<field name="author" value=""/>
+<field name="sheet" value="1"/>
+<field name="titleSup" value="Simple version"/>
+<field name="date" value="06/07/2017"/>
+<field name="id" value=""/>
+<field name="docStatus" value=""/>
+<field name="techRef" value=""/>
+</summary>
+<repo>
+<ppd name="electronics\passive components\resistors\light dependent resistor.ppd" t="R" fG="3f1953ec-e4d1-4da5-9a92-8ae00c60c1ca" lG="09e94adc-e671-4106-9aa1-bdb787f81431">
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-8" top="-25" right="8" bottom="25"/>
+<polyline pts="-28,-28,-12,-12,"/>
+<polyline pts="-12,-12,-14,-20,"/>
+<polyline pts="-12,-12,-20,-14,"/>
+<polyline pts="-38,-16,-22,0,"/>
+<polyline pts="-22,0,-25,-8,"/>
+<polyline pts="-22,0,-30,-2,"/>
+<outlet x="0" y="-25"/>
+<outlet x="0" y="25"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\electronics\LCD HD44780.ppd" fG="" lG="22e39a8c-0141-4b98-afdb-6ddb22b19143">
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-350" top="-400" right="524" bottom="0"/>
+<rect left="-300" top="-300" right="500" bottom="-100" op-fd="1" op-fc="16776960"/>
+<text x="315" y="-349" f="155,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">LCD HD44780</text>
+<outlet x="-300" y="-10"/>
+<outlet x="-200" y="-10"/>
+<outlet x="-100" y="-10"/>
+<outlet x="-250" y="-10"/>
+<outlet x="-150" y="-10"/>
+<outlet x="-50" y="-10"/>
+<outlet x="0" y="-10"/>
+<outlet x="50" y="-10"/>
+<outlet x="100" y="-10"/>
+<outlet x="200" y="-10"/>
+<outlet x="150" y="-10"/>
+<outlet x="150" y="-10"/>
+<outlet x="300" y="-10"/>
+<outlet x="250" y="-10"/>
+<outlet x="400" y="-10"/>
+<outlet x="350" y="-10"/>
+<outlet x="450" y="-10"/>
+<text x="-299" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">GND</text>
+<text x="-249" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">VCC</text>
+<text x="-199" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">V0</text>
+<text x="-149" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">RS</text>
+<text x="-99" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">RW</text>
+<text x="-49" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">E</text>
+<text x="1" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">DB0</text>
+<text x="51" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">DB1</text>
+<text x="101" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">DB2</text>
+<text x="151" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">DB3</text>
+<text x="201" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">DB4</text>
+<text x="251" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">DB5</text>
+<text x="301" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">DB6</text>
+<text x="351" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">DB7</text>
+<text x="401" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">LED+</text>
+<text x="451" y="-39" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">LED-</text>
+<text x="-215" y="-351" f="155,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">2x16</text>
+<ellipse left="-305" top="-15" right="-295" bottom="-5"/>
+<ellipse left="-255" top="-15" right="-245" bottom="-5"/>
+<ellipse left="-205" top="-15" right="-195" bottom="-5"/>
+<ellipse left="-155" top="-15" right="-145" bottom="-5"/>
+<ellipse left="-105" top="-15" right="-95" bottom="-5"/>
+<ellipse left="-55" top="-15" right="-45" bottom="-5"/>
+<ellipse left="-5" top="-15" right="5" bottom="-5"/>
+<ellipse left="45" top="-15" right="55" bottom="-5"/>
+<ellipse left="95" top="-15" right="105" bottom="-5"/>
+<ellipse left="145" top="-15" right="155" bottom="-5"/>
+<ellipse left="195" top="-15" right="205" bottom="-5"/>
+<ellipse left="245" top="-16" right="255" bottom="-6"/>
+<ellipse left="296" top="-15" right="306" bottom="-5"/>
+<ellipse left="345" top="-15" right="355" bottom="-5"/>
+<ellipse left="395" top="-15" right="405" bottom="-5"/>
+<ellipse left="445" top="-15" right="455" bottom="-5"/>
+<text x="63" y="-254" f="155,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">________________</text>
+<text x="63" y="-172" f="155,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">________________</text>
+<text x="-301" y="-65" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">1.</text>
+<text x="448" y="-65" f="50,0,0,0,Lucida Sans Unicode,000000" al="9">16.</text>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\passive components\resistors\resistor.ppd" t="R" v="10K" n="EN 60617: 04-01-01" fG="28c7548c-a963-45ba-b852-59afda220b0d" lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0">
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-8" top="-25" right="8" bottom="25"/>
+<outlet x="0" y="-25"/>
+<outlet x="0" y="25"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electrical installations\relays and switches\switches\on-off switch.ppd" fG="37e61430-ab98-4acb-898a-7fdfa91597b1" lG="36ce4fe4-b1d8-4dcb-8f67-a1ba42f3f0e8">
+<layers current="0">
+<layer name="0" v="1">
+<ellipse left="-23" top="-3" right="-17" bottom="3"/>
+<polyline pts="20,-6,20,0,"/>
+<polyline op-lw="4" pts="-20,0,20,-20,"/>
+<outlet x="-20" y="0"/>
+<outlet x="20" y="0"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\.\Breadboard ZY-60.ppd" fG="cb2917f3-7147-4f73-9460-1c12bfe67e6d" lG="41a8d567-d69f-4b9a-86b8-a2ff81d11411">
+<layers current="0">
+<layer name="0" v="1">
+<outlet x="-190" y="-280"/>
+<outlet x="-190" y="-260"/>
+<outlet x="-190" y="-240"/>
+<outlet x="-190" y="-220"/>
+<polyline op-lc="255" pts="-200,-280,-200,280,"/>
+<polyline op-lc="16737843" pts="-160,-280,-160,280,"/>
+<text x="-196" y="-296" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">+</text>
+<text x="-197" y="289" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">+</text>
+<text x="-166" y="-296" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">-</text>
+<text x="-157" y="289" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">-</text>
+<outlet x="-190" y="-200"/>
+<outlet x="-190" y="-160"/>
+<outlet x="-190" y="-140"/>
+<outlet x="-190" y="-120"/>
+<outlet x="-190" y="-100"/>
+<outlet x="-190" y="-80"/>
+<outlet x="-190" y="-40"/>
+<outlet x="-190" y="-20"/>
+<outlet x="-190" y="0"/>
+<outlet x="-190" y="20"/>
+<outlet x="-190" y="40"/>
+<outlet x="-190" y="80"/>
+<outlet x="-190" y="100"/>
+<outlet x="-190" y="120"/>
+<outlet x="-190" y="140"/>
+<outlet x="-190" y="160"/>
+<outlet x="-190" y="200"/>
+<outlet x="-190" y="220"/>
+<outlet x="-190" y="240"/>
+<outlet x="-190" y="260"/>
+<outlet x="-190" y="280"/>
+<outlet x="-170" y="-280"/>
+<outlet x="-170" y="-260"/>
+<outlet x="-170" y="-240"/>
+<outlet x="-170" y="-220"/>
+<outlet x="-170" y="-200"/>
+<outlet x="-170" y="-160"/>
+<outlet x="-170" y="-140"/>
+<outlet x="-170" y="-120"/>
+<outlet x="-170" y="-100"/>
+<outlet x="-170" y="-80"/>
+<outlet x="-170" y="-40"/>
+<outlet x="-170" y="-20"/>
+<outlet x="-170" y="0"/>
+<outlet x="-170" y="20"/>
+<outlet x="-170" y="40"/>
+<outlet x="-170" y="80"/>
+<outlet x="-170" y="100"/>
+<outlet x="-170" y="120"/>
+<outlet x="-170" y="140"/>
+<outlet x="-170" y="160"/>
+<outlet x="-170" y="200"/>
+<outlet x="-170" y="220"/>
+<outlet x="-170" y="240"/>
+<outlet x="-170" y="260"/>
+<outlet x="-170" y="280"/>
+<rect left="-210" top="-320" right="-150" bottom="320"/>
+<text x="-66" y="-306" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">a b c d e</text>
+<outlet x="-110" y="-280"/>
+<outlet x="-90" y="-280"/>
+<outlet x="-70" y="-280"/>
+<outlet x="-50" y="-280"/>
+<outlet x="-30" y="-280"/>
+<outlet x="-110" y="-260"/>
+<outlet x="-90" y="-260"/>
+<outlet x="-70" y="-260"/>
+<outlet x="-50" y="-260"/>
+<outlet x="-30" y="-260"/>
+<outlet x="-110" y="-240"/>
+<outlet x="-90" y="-240"/>
+<outlet x="-70" y="-240"/>
+<outlet x="-50" y="-240"/>
+<outlet x="-30" y="-240"/>
+<outlet x="-110" y="-220"/>
+<outlet x="-90" y="-220"/>
+<outlet x="-70" y="-220"/>
+<outlet x="-50" y="-220"/>
+<outlet x="-30" y="-220"/>
+<outlet x="-110" y="-200"/>
+<outlet x="-90" y="-200"/>
+<outlet x="-70" y="-200"/>
+<outlet x="-50" y="-200"/>
+<outlet x="-30" y="-200"/>
+<outlet x="-110" y="-180"/>
+<outlet x="-90" y="-180"/>
+<outlet x="-70" y="-180"/>
+<outlet x="-50" y="-180"/>
+<outlet x="-30" y="-180"/>
+<outlet x="-110" y="-160"/>
+<outlet x="-90" y="-160"/>
+<outlet x="-70" y="-160"/>
+<outlet x="-50" y="-160"/>
+<outlet x="-30" y="-160"/>
+<outlet x="-110" y="-140"/>
+<outlet x="-90" y="-140"/>
+<outlet x="-70" y="-140"/>
+<outlet x="-50" y="-140"/>
+<outlet x="-30" y="-140"/>
+<outlet x="-110" y="-120"/>
+<outlet x="-90" y="-120"/>
+<outlet x="-70" y="-120"/>
+<outlet x="-50" y="-120"/>
+<outlet x="-30" y="-120"/>
+<outlet x="-110" y="-100"/>
+<outlet x="-90" y="-100"/>
+<outlet x="-70" y="-100"/>
+<outlet x="-50" y="-100"/>
+<outlet x="-30" y="-100"/>
+<outlet x="-110" y="-80"/>
+<outlet x="-90" y="-80"/>
+<outlet x="-70" y="-80"/>
+<outlet x="-50" y="-80"/>
+<outlet x="-30" y="-80"/>
+<outlet x="-110" y="-40"/>
+<outlet x="-90" y="-40"/>
+<outlet x="-70" y="-40"/>
+<outlet x="-50" y="-40"/>
+<outlet x="-30" y="-40"/>
+<outlet x="-110" y="-60"/>
+<outlet x="-90" y="-60"/>
+<outlet x="-70" y="-60"/>
+<outlet x="-50" y="-60"/>
+<outlet x="-30" y="-60"/>
+<outlet x="-110" y="-20"/>
+<outlet x="-90" y="-20"/>
+<outlet x="-70" y="-20"/>
+<outlet x="-50" y="-20"/>
+<outlet x="-30" y="-20"/>
+<outlet x="-110" y="0"/>
+<outlet x="-90" y="0"/>
+<outlet x="-70" y="0"/>
+<outlet x="-50" y="0"/>
+<outlet x="-30" y="0"/>
+<outlet x="-110" y="20"/>
+<outlet x="-90" y="20"/>
+<outlet x="-70" y="20"/>
+<outlet x="-50" y="20"/>
+<outlet x="-30" y="20"/>
+<outlet x="-110" y="40"/>
+<outlet x="-90" y="40"/>
+<outlet x="-70" y="40"/>
+<outlet x="-50" y="40"/>
+<outlet x="-30" y="40"/>
+<outlet x="-110" y="60"/>
+<outlet x="-90" y="60"/>
+<outlet x="-70" y="60"/>
+<outlet x="-50" y="60"/>
+<outlet x="-30" y="60"/>
+<outlet x="-110" y="80"/>
+<outlet x="-90" y="80"/>
+<outlet x="-70" y="80"/>
+<outlet x="-50" y="80"/>
+<outlet x="-30" y="80"/>
+<outlet x="-110" y="100"/>
+<outlet x="-90" y="100"/>
+<outlet x="-70" y="100"/>
+<outlet x="-50" y="100"/>
+<outlet x="-30" y="100"/>
+<outlet x="-110" y="120"/>
+<outlet x="-90" y="120"/>
+<outlet x="-70" y="120"/>
+<outlet x="-50" y="120"/>
+<outlet x="-30" y="120"/>
+<outlet x="-110" y="140"/>
+<outlet x="-90" y="140"/>
+<outlet x="-70" y="140"/>
+<outlet x="-50" y="140"/>
+<outlet x="-30" y="140"/>
+<outlet x="-110" y="160"/>
+<outlet x="-90" y="160"/>
+<outlet x="-70" y="160"/>
+<outlet x="-50" y="160"/>
+<outlet x="-30" y="160"/>
+<outlet x="-110" y="180"/>
+<outlet x="-90" y="180"/>
+<outlet x="-70" y="180"/>
+<outlet x="-50" y="180"/>
+<outlet x="-30" y="180"/>
+<outlet x="-110" y="200"/>
+<outlet x="-90" y="200"/>
+<outlet x="-70" y="200"/>
+<outlet x="-50" y="200"/>
+<outlet x="-30" y="200"/>
+<outlet x="-110" y="220"/>
+<outlet x="-90" y="220"/>
+<outlet x="-70" y="220"/>
+<outlet x="-50" y="220"/>
+<outlet x="-30" y="220"/>
+<outlet x="-110" y="240"/>
+<outlet x="-90" y="240"/>
+<outlet x="-70" y="240"/>
+<outlet x="-50" y="240"/>
+<outlet x="-30" y="240"/>
+<outlet x="-110" y="260"/>
+<outlet x="-90" y="260"/>
+<outlet x="-70" y="260"/>
+<outlet x="-50" y="260"/>
+<outlet x="-30" y="260"/>
+<outlet x="-110" y="280"/>
+<outlet x="-90" y="280"/>
+<outlet x="-70" y="280"/>
+<outlet x="-50" y="280"/>
+<outlet x="-30" y="280"/>
+<outlet x="-110" y="300"/>
+<outlet x="-90" y="300"/>
+<outlet x="-70" y="300"/>
+<outlet x="-50" y="300"/>
+<outlet x="-30" y="300"/>
+<text x="-126" y="-286" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1</text>
+<text x="-130" y="-100" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">10</text>
+<text x="-130" y="100" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">20</text>
+<text x="-130" y="300" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">30</text>
+<rect left="-150" top="-320" right="-10" bottom="320"/>
+<text x="74" y="-306" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">f  g  h  i  j</text>
+<outlet x="30" y="-280"/>
+<outlet x="50" y="-280"/>
+<outlet x="70" y="-280"/>
+<outlet x="90" y="-280"/>
+<outlet x="110" y="-280"/>
+<outlet x="30" y="-260"/>
+<outlet x="50" y="-260"/>
+<outlet x="70" y="-260"/>
+<outlet x="90" y="-260"/>
+<outlet x="110" y="-260"/>
+<outlet x="30" y="-240"/>
+<outlet x="50" y="-240"/>
+<outlet x="70" y="-240"/>
+<outlet x="90" y="-240"/>
+<outlet x="110" y="-240"/>
+<outlet x="30" y="-220"/>
+<outlet x="50" y="-220"/>
+<outlet x="70" y="-220"/>
+<outlet x="90" y="-220"/>
+<outlet x="110" y="-220"/>
+<outlet x="30" y="-200"/>
+<outlet x="50" y="-200"/>
+<outlet x="70" y="-200"/>
+<outlet x="90" y="-200"/>
+<outlet x="110" y="-200"/>
+<outlet x="30" y="-180"/>
+<outlet x="50" y="-180"/>
+<outlet x="70" y="-180"/>
+<outlet x="90" y="-180"/>
+<outlet x="110" y="-180"/>
+<outlet x="30" y="-160"/>
+<outlet x="50" y="-160"/>
+<outlet x="70" y="-160"/>
+<outlet x="90" y="-160"/>
+<outlet x="110" y="-160"/>
+<outlet x="30" y="-140"/>
+<outlet x="50" y="-140"/>
+<outlet x="70" y="-140"/>
+<outlet x="90" y="-140"/>
+<outlet x="110" y="-140"/>
+<outlet x="30" y="-120"/>
+<outlet x="50" y="-120"/>
+<outlet x="70" y="-120"/>
+<outlet x="90" y="-120"/>
+<outlet x="110" y="-120"/>
+<outlet x="30" y="-100"/>
+<outlet x="50" y="-100"/>
+<outlet x="70" y="-100"/>
+<outlet x="90" y="-100"/>
+<outlet x="110" y="-100"/>
+<outlet x="30" y="-80"/>
+<outlet x="50" y="-80"/>
+<outlet x="70" y="-80"/>
+<outlet x="90" y="-80"/>
+<outlet x="110" y="-80"/>
+<outlet x="30" y="-40"/>
+<outlet x="50" y="-40"/>
+<outlet x="70" y="-40"/>
+<outlet x="90" y="-40"/>
+<outlet x="110" y="-40"/>
+<outlet x="30" y="-60"/>
+<outlet x="50" y="-60"/>
+<outlet x="70" y="-60"/>
+<outlet x="90" y="-60"/>
+<outlet x="110" y="-60"/>
+<outlet x="30" y="-20"/>
+<outlet x="50" y="-20"/>
+<outlet x="70" y="-20"/>
+<outlet x="90" y="-20"/>
+<outlet x="110" y="-20"/>
+<outlet x="30" y="0"/>
+<outlet x="50" y="0"/>
+<outlet x="70" y="0"/>
+<outlet x="90" y="0"/>
+<outlet x="110" y="0"/>
+<outlet x="30" y="20"/>
+<outlet x="50" y="20"/>
+<outlet x="70" y="20"/>
+<outlet x="90" y="20"/>
+<outlet x="110" y="20"/>
+<outlet x="30" y="40"/>
+<outlet x="50" y="40"/>
+<outlet x="70" y="40"/>
+<outlet x="90" y="40"/>
+<outlet x="110" y="40"/>
+<outlet x="30" y="60"/>
+<outlet x="50" y="60"/>
+<outlet x="70" y="60"/>
+<outlet x="90" y="60"/>
+<outlet x="110" y="60"/>
+<outlet x="30" y="80"/>
+<outlet x="50" y="80"/>
+<outlet x="70" y="80"/>
+<outlet x="90" y="80"/>
+<outlet x="110" y="80"/>
+<outlet x="30" y="100"/>
+<outlet x="50" y="100"/>
+<outlet x="70" y="100"/>
+<outlet x="90" y="100"/>
+<outlet x="110" y="100"/>
+<outlet x="30" y="120"/>
+<outlet x="50" y="120"/>
+<outlet x="70" y="120"/>
+<outlet x="90" y="120"/>
+<outlet x="110" y="120"/>
+<outlet x="30" y="140"/>
+<outlet x="50" y="140"/>
+<outlet x="70" y="140"/>
+<outlet x="90" y="140"/>
+<outlet x="110" y="140"/>
+<outlet x="30" y="160"/>
+<outlet x="50" y="160"/>
+<outlet x="70" y="160"/>
+<outlet x="90" y="160"/>
+<outlet x="110" y="160"/>
+<outlet x="30" y="180"/>
+<outlet x="50" y="180"/>
+<outlet x="70" y="180"/>
+<outlet x="90" y="180"/>
+<outlet x="110" y="180"/>
+<outlet x="30" y="200"/>
+<outlet x="50" y="200"/>
+<outlet x="70" y="200"/>
+<outlet x="90" y="200"/>
+<outlet x="110" y="200"/>
+<outlet x="30" y="220"/>
+<outlet x="50" y="220"/>
+<outlet x="70" y="220"/>
+<outlet x="90" y="220"/>
+<outlet x="110" y="220"/>
+<outlet x="30" y="240"/>
+<outlet x="50" y="240"/>
+<outlet x="70" y="240"/>
+<outlet x="90" y="240"/>
+<outlet x="110" y="240"/>
+<outlet x="30" y="260"/>
+<outlet x="50" y="260"/>
+<outlet x="70" y="260"/>
+<outlet x="90" y="260"/>
+<outlet x="110" y="260"/>
+<outlet x="30" y="280"/>
+<outlet x="50" y="280"/>
+<outlet x="70" y="280"/>
+<outlet x="90" y="280"/>
+<outlet x="110" y="280"/>
+<outlet x="30" y="300"/>
+<outlet x="50" y="300"/>
+<outlet x="70" y="300"/>
+<outlet x="90" y="300"/>
+<outlet x="110" y="300"/>
+<text x="134" y="-286" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1</text>
+<text x="130" y="-100" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">10</text>
+<text x="130" y="100" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">20</text>
+<text x="130" y="300" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">30</text>
+<rect left="10" top="-320" right="150" bottom="320"/>
+<outlet x="170" y="-280"/>
+<outlet x="170" y="-260"/>
+<outlet x="170" y="-240"/>
+<outlet x="170" y="-220"/>
+<polyline op-lc="255" pts="200,-280,200,280,"/>
+<polyline op-lc="16737843" pts="160,-280,160,280,"/>
+<text x="194" y="-296" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">+</text>
+<text x="203" y="289" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">+</text>
+<text x="164" y="-296" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">-</text>
+<text x="163" y="289" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">-</text>
+<outlet x="170" y="-200"/>
+<outlet x="170" y="-160"/>
+<outlet x="170" y="-140"/>
+<outlet x="170" y="-120"/>
+<outlet x="170" y="-100"/>
+<outlet x="170" y="-80"/>
+<outlet x="170" y="-40"/>
+<outlet x="170" y="-20"/>
+<outlet x="170" y="0"/>
+<outlet x="170" y="20"/>
+<outlet x="170" y="40"/>
+<outlet x="170" y="80"/>
+<outlet x="170" y="100"/>
+<outlet x="170" y="120"/>
+<outlet x="170" y="140"/>
+<outlet x="170" y="160"/>
+<outlet x="170" y="200"/>
+<outlet x="170" y="220"/>
+<outlet x="170" y="240"/>
+<outlet x="170" y="260"/>
+<outlet x="170" y="280"/>
+<outlet x="190" y="-280"/>
+<outlet x="190" y="-260"/>
+<outlet x="190" y="-240"/>
+<outlet x="190" y="-220"/>
+<outlet x="190" y="-200"/>
+<outlet x="190" y="-160"/>
+<outlet x="190" y="-140"/>
+<outlet x="190" y="-120"/>
+<outlet x="190" y="-100"/>
+<outlet x="190" y="-80"/>
+<outlet x="190" y="-40"/>
+<outlet x="190" y="-20"/>
+<outlet x="190" y="0"/>
+<outlet x="190" y="20"/>
+<outlet x="190" y="40"/>
+<outlet x="190" y="80"/>
+<outlet x="190" y="100"/>
+<outlet x="190" y="120"/>
+<outlet x="190" y="140"/>
+<outlet x="190" y="160"/>
+<outlet x="190" y="200"/>
+<outlet x="190" y="220"/>
+<outlet x="190" y="240"/>
+<outlet x="190" y="260"/>
+<outlet x="190" y="280"/>
+<rect left="150" top="-320" right="210" bottom="320"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\passive components\lamps and signalling devices\lamp.ppd" t="Z" n="EN 60617: 11-15-03" fG="4c937897-4741-4ab6-9544-1153eb409f8e" lG="60758886-e4d6-4fbe-be4e-9a654c58562b">
+<layers current="0">
+<layer name="0" v="1">
+<ellipse left="-25" top="-25" right="25" bottom="25"/>
+<polyline pts="-17,-17,17,17,"/>
+<polyline pts="-17,17,17,-17,"/>
+<outlet x="-25" y="0"/>
+<outlet x="25" y="0"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\electronics\measurement\circular scale (12-5).ppd" fG="df5f0d9a-dfe4-4b6e-9d74-7fdac2030374" lG="742b5e72-4a70-4d76-91ae-48028ddd0c34">
+<layers current="0">
+<layer name="0" v="1">
+<ellipse left="-400" top="-400" right="400" bottom="400"/>
+<polyline pts="-338,108,-376,122,"/>
+<polyline pts="-348,73,-387,81,"/>
+<polyline pts="-354,37,-394,41,"/>
+<polyline pts="-325,145,-360,161,"/>
+<polyline pts="-297,0,-396,0,"/>
+<polyline pts="-348,-76,-387,-83,"/>
+<polyline pts="-339,-111,-377,-124,"/>
+<polyline pts="-326,-146,-362,-162,"/>
+<polyline pts="-355,-38,-394,-41,"/>
+<polyline pts="-258,-150,-344,-199,"/>
+<polyline pts="-75,349,-82,388,"/>
+<polyline pts="-110,340,-123,377,"/>
+<polyline pts="-145,327,-161,363,"/>
+<polyline pts="-37,356,-40,394,"/>
+<polyline pts="-149,259,-198,345,"/>
+<polyline pts="-240,265,-266,295,"/>
+<polyline pts="-266,240,-296,266,"/>
+<polyline pts="-290,211,-322,234,"/>
+<polyline pts="-211,290,-233,322,"/>
+<polyline pts="-259,150,-345,200,"/>
+<polyline pts="263,240,294,265,"/>
+<polyline pts="238,266,264,295,"/>
+<polyline pts="209,289,233,321,"/>
+<polyline pts="288,210,320,232,"/>
+<polyline pts="148,259,198,344,"/>
+<polyline pts="108,341,121,378,"/>
+<polyline pts="73,351,81,390,"/>
+<polyline pts="36,357,40,396,"/>
+<polyline pts="144,328,161,363,"/>
+<polyline pts="0,300,0,399,"/>
+<polyline pts="340,-108,377,-121,"/>
+<polyline pts="350,-73,389,-80,"/>
+<polyline pts="356,-36,395,-40,"/>
+<polyline pts="327,-144,362,-160,"/>
+<polyline pts="299,0,398,0,"/>
+<polyline pts="350,76,389,84,"/>
+<polyline pts="341,111,379,124,"/>
+<polyline pts="328,146,364,163,"/>
+<polyline pts="357,38,396,42,"/>
+<polyline pts="260,150,346,200,"/>
+<polyline pts="76,-348,83,-387,"/>
+<polyline pts="111,-339,124,-376,"/>
+<polyline pts="146,-326,162,-362,"/>
+<polyline pts="38,-355,41,-393,"/>
+<polyline pts="150,-258,199,-344,"/>
+<polyline pts="241,-264,267,-294,"/>
+<polyline pts="267,-239,297,-265,"/>
+<polyline pts="291,-210,323,-233,"/>
+<polyline pts="212,-289,234,-321,"/>
+<polyline pts="260,-149,346,-199,"/>
+<polyline pts="-264,-240,-294,-266,"/>
+<polyline pts="-239,-266,-265,-296,"/>
+<polyline pts="-210,-290,-233,-322,"/>
+<polyline pts="-289,-211,-321,-233,"/>
+<polyline pts="-149,-259,-199,-345,"/>
+<polyline pts="-109,-341,-122,-379,"/>
+<polyline pts="-74,-351,-82,-390,"/>
+<polyline pts="-37,-357,-41,-397,"/>
+<polyline pts="-145,-328,-162,-364,"/>
+<polyline pts="0,-300,0,-400,"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\passive components\resistors (ANSI)\symmetrical photoconductive transducer.ppd" t="R" v="10k" n="IEC:2.1.1" fG="" lG="af8dd2a2-dfb7-4268-8945-f49ed5af20f0">
+<layers current="0">
+<layer name="0" v="1">
+<polyline pts="0,30,-10,25,10,15,-10,5,10,-5,-10,-15,10,-25,0,-30,"/>
+<outlet x="0" y="30"/>
+<outlet x="0" y="-30"/>
+<polyline pts="-26,26,-16,24,-24,31,"/>
+<polyline pts="-18,25,-35,34,"/>
+<polyline pts="-31,16,-21,14,-29,21,"/>
+<polyline pts="-23,15,-40,24,"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\electronics\Bornera x 12.ppd" fG="5a193217-e6e9-4b6c-8c62-b82dc55a6a4a" lG="b8580bd1-8cb9-48ec-884b-44fb549e2ff4">
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-40" top="-130" right="0" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="-10,-30,-10,30,"/>
+<ellipse left="-30" top="-120" right="-10" bottom="-100" op-lw="3"/>
+<rect left="-30" top="-90" right="-10" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">6</text>
+</rect>
+<polyline op-lw="4" pts="-30,-30,-30,30,"/>
+<ellipse left="-30" top="100" right="-10" bottom="120" op-lw="3"/>
+<rect left="-30" top="70" right="-10" bottom="90"/>
+<outlet x="-20" y="-110"/>
+<outlet x="-20" y="110"/>
+<outlet x="-10" y="-30"/>
+<outlet x="-10" y="30"/>
+<outlet x="-10" y="0"/>
+<outlet x="-30" y="-30"/>
+<outlet x="-30" y="30"/>
+<outlet x="-30" y="0"/>
+<rect left="-80" top="-130" right="-40" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="-50,-30,-50,30,"/>
+<ellipse left="-70" top="-120" right="-50" bottom="-100" op-lw="3"/>
+<rect left="-70" top="-90" right="-50" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">5</text>
+</rect>
+<polyline op-lw="4" pts="-70,-30,-70,30,"/>
+<ellipse left="-70" top="100" right="-50" bottom="120" op-lw="3"/>
+<rect left="-70" top="70" right="-50" bottom="90"/>
+<outlet x="-60" y="-110"/>
+<outlet x="-60" y="110"/>
+<outlet x="-50" y="-30"/>
+<outlet x="-50" y="30"/>
+<outlet x="-50" y="0"/>
+<outlet x="-70" y="-30"/>
+<outlet x="-70" y="30"/>
+<outlet x="-70" y="0"/>
+<rect left="-120" top="-130" right="-80" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="-90,-30,-90,30,"/>
+<ellipse left="-110" top="-120" right="-90" bottom="-100" op-lw="3"/>
+<rect left="-110" top="-90" right="-90" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">4</text>
+</rect>
+<polyline op-lw="4" pts="-110,-30,-110,30,"/>
+<ellipse left="-110" top="100" right="-90" bottom="120" op-lw="3"/>
+<rect left="-110" top="70" right="-90" bottom="90"/>
+<outlet x="-100" y="-110"/>
+<outlet x="-100" y="110"/>
+<outlet x="-90" y="-30"/>
+<outlet x="-90" y="30"/>
+<outlet x="-90" y="0"/>
+<outlet x="-110" y="-30"/>
+<outlet x="-110" y="30"/>
+<outlet x="-110" y="0"/>
+<rect left="-160" top="-130" right="-120" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="-130,-30,-130,30,"/>
+<ellipse left="-150" top="-120" right="-130" bottom="-100" op-lw="3"/>
+<rect left="-150" top="-90" right="-130" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">3</text>
+</rect>
+<polyline op-lw="4" pts="-150,-30,-150,30,"/>
+<ellipse left="-150" top="100" right="-130" bottom="120" op-lw="3"/>
+<rect left="-150" top="70" right="-130" bottom="90"/>
+<outlet x="-140" y="-110"/>
+<outlet x="-140" y="110"/>
+<outlet x="-130" y="-30"/>
+<outlet x="-130" y="30"/>
+<outlet x="-130" y="0"/>
+<outlet x="-150" y="-30"/>
+<outlet x="-150" y="30"/>
+<outlet x="-150" y="0"/>
+<rect left="-200" top="-130" right="-160" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="-170,-30,-170,30,"/>
+<ellipse left="-190" top="-120" right="-170" bottom="-100" op-lw="3"/>
+<rect left="-190" top="-90" right="-170" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">2</text>
+</rect>
+<polyline op-lw="4" pts="-190,-30,-190,30,"/>
+<ellipse left="-190" top="100" right="-170" bottom="120" op-lw="3"/>
+<rect left="-190" top="70" right="-170" bottom="90"/>
+<outlet x="-180" y="-110"/>
+<outlet x="-180" y="110"/>
+<outlet x="-170" y="-30"/>
+<outlet x="-170" y="30"/>
+<outlet x="-170" y="0"/>
+<outlet x="-190" y="-30"/>
+<outlet x="-190" y="30"/>
+<outlet x="-190" y="0"/>
+<rect left="-240" top="-130" right="-200" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="-210,-30,-210,30,"/>
+<ellipse left="-230" top="-120" right="-210" bottom="-100" op-lw="3"/>
+<rect left="-230" top="-90" right="-210" bottom="-70" op-fd="1" op-fc="8454143">
+<text font="50,1,0,0,Tahoma,000000" turns="0">1</text>
+</rect>
+<polyline op-lw="4" pts="-230,-30,-230,30,"/>
+<ellipse left="-230" top="100" right="-210" bottom="120" op-lw="3"/>
+<rect left="-230" top="70" right="-210" bottom="90"/>
+<outlet x="-220" y="-110"/>
+<outlet x="-220" y="110"/>
+<outlet x="-210" y="-30"/>
+<outlet x="-210" y="30"/>
+<outlet x="-210" y="0"/>
+<outlet x="-230" y="-30"/>
+<outlet x="-230" y="30"/>
+<outlet x="-230" y="0"/>
+<rect left="200" top="-130" right="240" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="230,-30,230,30,"/>
+<ellipse left="210" top="-120" right="230" bottom="-100" op-lw="3"/>
+<rect left="208" top="-90" right="232" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">12</text>
+</rect>
+<polyline op-lw="4" pts="210,-30,210,30,"/>
+<ellipse left="210" top="100" right="230" bottom="120" op-lw="3"/>
+<rect left="210" top="70" right="230" bottom="90"/>
+<outlet x="220" y="-110"/>
+<outlet x="220" y="110"/>
+<outlet x="230" y="-30"/>
+<outlet x="230" y="30"/>
+<outlet x="230" y="0"/>
+<outlet x="210" y="-30"/>
+<outlet x="210" y="30"/>
+<outlet x="210" y="0"/>
+<rect left="160" top="-130" right="200" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="190,-30,190,30,"/>
+<ellipse left="170" top="-120" right="190" bottom="-100" op-lw="3"/>
+<rect left="168" top="-90" right="192" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">11</text>
+</rect>
+<polyline op-lw="4" pts="170,-30,170,30,"/>
+<ellipse left="170" top="100" right="190" bottom="120" op-lw="3"/>
+<rect left="170" top="70" right="190" bottom="90"/>
+<outlet x="180" y="-110"/>
+<outlet x="180" y="110"/>
+<outlet x="190" y="-30"/>
+<outlet x="190" y="30"/>
+<outlet x="190" y="0"/>
+<outlet x="170" y="-30"/>
+<outlet x="170" y="30"/>
+<outlet x="170" y="0"/>
+<rect left="120" top="-130" right="160" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="150,-30,150,30,"/>
+<ellipse left="130" top="-120" right="150" bottom="-100" op-lw="3"/>
+<rect left="128" top="-90" right="152" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">10</text>
+</rect>
+<polyline op-lw="4" pts="130,-30,130,30,"/>
+<ellipse left="130" top="100" right="150" bottom="120" op-lw="3"/>
+<rect left="130" top="70" right="150" bottom="90"/>
+<outlet x="140" y="-110"/>
+<outlet x="140" y="110"/>
+<outlet x="150" y="-30"/>
+<outlet x="150" y="30"/>
+<outlet x="150" y="0"/>
+<outlet x="130" y="-30"/>
+<outlet x="130" y="30"/>
+<outlet x="130" y="0"/>
+<rect left="80" top="-130" right="120" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="110,-30,110,30,"/>
+<ellipse left="90" top="-120" right="110" bottom="-100" op-lw="3"/>
+<rect left="90" top="-90" right="110" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">9</text>
+</rect>
+<polyline op-lw="4" pts="90,-30,90,30,"/>
+<ellipse left="90" top="100" right="110" bottom="120" op-lw="3"/>
+<rect left="90" top="70" right="110" bottom="90"/>
+<outlet x="100" y="-110"/>
+<outlet x="100" y="110"/>
+<outlet x="110" y="-30"/>
+<outlet x="110" y="30"/>
+<outlet x="110" y="0"/>
+<outlet x="90" y="-30"/>
+<outlet x="90" y="30"/>
+<outlet x="90" y="0"/>
+<rect left="40" top="-130" right="80" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="70,-30,70,30,"/>
+<ellipse left="50" top="-120" right="70" bottom="-100" op-lw="3"/>
+<rect left="50" top="-90" right="70" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">8</text>
+</rect>
+<polyline op-lw="4" pts="50,-30,50,30,"/>
+<ellipse left="50" top="100" right="70" bottom="120" op-lw="3"/>
+<rect left="50" top="70" right="70" bottom="90"/>
+<outlet x="60" y="-110"/>
+<outlet x="60" y="110"/>
+<outlet x="70" y="-30"/>
+<outlet x="70" y="30"/>
+<outlet x="70" y="0"/>
+<outlet x="50" y="-30"/>
+<outlet x="50" y="30"/>
+<outlet x="50" y="0"/>
+<rect left="0" top="-130" right="40" bottom="130" op-lw="4" op-fd="1" op-fc="15132390"/>
+<polyline op-lw="4" pts="30,-30,30,30,"/>
+<ellipse left="10" top="-120" right="30" bottom="-100" op-lw="3"/>
+<rect left="10" top="-90" right="30" bottom="-70">
+<text font="50,1,0,0,Tahoma,000000" turns="0">7</text>
+</rect>
+<polyline op-lw="4" pts="10,-30,10,30,"/>
+<ellipse left="10" top="100" right="30" bottom="120" op-lw="3"/>
+<rect left="10" top="70" right="30" bottom="90"/>
+<outlet x="20" y="-110"/>
+<outlet x="20" y="110"/>
+<outlet x="30" y="-30"/>
+<outlet x="30" y="30"/>
+<outlet x="30" y="0"/>
+<outlet x="10" y="-30"/>
+<outlet x="10" y="30"/>
+<outlet x="10" y="0"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\mechanical parts\connectors\URS.ppd" t="b" fG="6531b9bd-1d56-11da-a48a-001109998acf" lG="c3e5ea24-e7d0-43c0-9761-4198b78318ea">
+<layers current="0">
+<layer name="0" v="1">
+<outlet x="-10" y="0"/>
+<outlet x="10" y="0"/>
+<outlet x="-10" y="-10"/>
+<outlet x="-10" y="10"/>
+<outlet x="-10" y="-20"/>
+<outlet x="-10" y="-30"/>
+<outlet x="-10" y="-40"/>
+<outlet x="-10" y="-50"/>
+<outlet x="-10" y="20"/>
+<outlet x="-10" y="30"/>
+<outlet x="-10" y="40"/>
+<outlet x="-10" y="50"/>
+<outlet x="-10" y="60"/>
+<outlet x="-10" y="-60"/>
+<outlet x="10" y="-10"/>
+<outlet x="10" y="-20"/>
+<outlet x="10" y="-30"/>
+<outlet x="10" y="-40"/>
+<outlet x="10" y="-50"/>
+<outlet x="10" y="-60"/>
+<outlet x="10" y="10"/>
+<outlet x="10" y="20"/>
+<outlet x="10" y="30"/>
+<outlet x="10" y="40"/>
+<outlet x="10" y="50"/>
+<outlet x="10" y="60"/>
+<polyline op-lw="3" pts="-21,-61,-21,68,"/>
+<polyline op-lw="3" pts="20,-62,20,68,"/>
+<polyline op-lw="3" pts="-21,69,20,69,"/>
+<polyline op-lw="3" pts="14,-78,20,-62,"/>
+<polyline op-lw="3" pts="-15,-78,-21,-61,"/>
+<polyline op-lw="3" pts="-14,-79,13,-79,"/>
+<polyline op-lw="1" pts="0,-55,0,-6,"/>
+<polyline op-lw="1" pts="0,6,0,54,"/>
+<text x="-9" y="-73" f="30,0,0,0,Arial,000000" l="1" tws="0">a</text>
+<text x="9" y="-73" f="30,0,0,0,Arial,000000" l="1" tws="0">b</text>
+<text x="-1" y="-61" f="30,0,0,0,Arial,000000" l="1" tws="0">13</text>
+<text x="0" y="60" f="30,0,0,0,Arial,000000" l="1" tws="0">1</text>
+<text x="0" y="0" f="30,0,0,0,Arial,000000" l="1" tws="0">7</text>
+<rect left="-12" top="-62" right="-8" bottom="-56"/>
+<rect left="-12" top="-52" right="-8" bottom="-46"/>
+<rect left="-12" top="-42" right="-8" bottom="-36"/>
+<rect left="-12" top="-32" right="-8" bottom="-26"/>
+<rect left="-12" top="-22" right="-8" bottom="-16"/>
+<rect left="-12" top="-12" right="-8" bottom="-6"/>
+<rect left="-12" top="-2" right="-8" bottom="4"/>
+<rect left="-12" top="8" right="-8" bottom="14"/>
+<rect left="-12" top="18" right="-8" bottom="24"/>
+<rect left="-12" top="28" right="-8" bottom="34"/>
+<rect left="-12" top="38" right="-8" bottom="44"/>
+<rect left="-12" top="48" right="-8" bottom="54"/>
+<rect left="-12" top="58" right="-8" bottom="64"/>
+<rect left="8" top="58" right="12" bottom="64"/>
+<rect left="8" top="48" right="12" bottom="54"/>
+<rect left="8" top="38" right="12" bottom="44"/>
+<rect left="8" top="28" right="12" bottom="34"/>
+<rect left="8" top="18" right="12" bottom="24"/>
+<rect left="8" top="8" right="12" bottom="14"/>
+<rect left="8" top="-2" right="12" bottom="4"/>
+<rect left="8" top="-12" right="12" bottom="-6"/>
+<rect left="8" top="-22" right="12" bottom="-16"/>
+<rect left="8" top="-32" right="12" bottom="-26"/>
+<rect left="8" top="-42" right="12" bottom="-36"/>
+<rect left="8" top="-52" right="12" bottom="-46"/>
+<rect left="8" top="-62" right="12" bottom="-56"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\.\Arduino_uno.ppd" fG="e8158c5f-d222-4c9f-89eb-a8efa249908f" lG="c5ef0910-fe4f-4fa7-a069-645f1898dc90">
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-200" top="-400" right="200" bottom="300"/>
+<outlet x="200" y="250"/>
+<outlet x="200" y="220"/>
+<outlet x="200" y="190"/>
+<outlet x="200" y="160"/>
+<outlet x="200" y="130"/>
+<outlet x="200" y="100"/>
+<outlet x="200" y="70"/>
+<outlet x="200" y="40"/>
+<outlet x="200" y="0"/>
+<outlet x="200" y="-30"/>
+<outlet x="200" y="-60"/>
+<outlet x="200" y="-90"/>
+<outlet x="200" y="-120"/>
+<outlet x="200" y="-150"/>
+<outlet x="200" y="-180"/>
+<outlet x="200" y="-210"/>
+<outlet x="200" y="-240"/>
+<outlet x="200" y="-270"/>
+<outlet x="-200" y="250"/>
+<outlet x="-200" y="220"/>
+<outlet x="-200" y="190"/>
+<outlet x="-200" y="160"/>
+<outlet x="-200" y="130"/>
+<outlet x="-200" y="100"/>
+<outlet x="-200" y="50"/>
+<outlet x="-200" y="50"/>
+<outlet x="-200" y="20"/>
+<outlet x="-200" y="-10"/>
+<outlet x="-200" y="-40"/>
+<outlet x="-200" y="-70"/>
+<outlet x="-200" y="-100"/>
+<outlet x="-200" y="-130"/>
+<outlet x="-200" y="-160"/>
+<rect left="90" top="-380" right="160" bottom="-310"/>
+<ellipse left="100" top="-370" right="150" bottom="-320" op-fd="1" op-fc="255"/>
+<rect left="-10" top="-430" right="60" bottom="-310" op-fd="1" op-fc="12632256"/>
+<rect left="-170" top="-420" right="-130" bottom="-310" op-fd="1" op-fc="0"/>
+<text x="-159" y="101" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">A0</text>
+<text x="-159" y="131" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">A1</text>
+<text x="-159" y="161" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">A2</text>
+<text x="-159" y="191" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">A3</text>
+<text x="-159" y="221" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">A4</text>
+<text x="-159" y="251" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">A5</text>
+<text x="-109" y="171" a="-900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ANALOG IN</text>
+<polyline pts="-100,90,-100,260,"/>
+<text x="-159" y="-39" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">5V</text>
+<text x="-149" y="-9" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">GND</text>
+<text x="-149" y="21" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">GND</text>
+<text x="-149" y="51" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Vin</text>
+<text x="-109" y="11" a="-900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">POWER</text>
+<polyline pts="-100,-50,-100,70,"/>
+<roundRect left="30" top="30" right="80" bottom="110" rX="40" rY="40"/>
+<text x="56" y="71" a="-900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">UNO</text>
+<text x="21" y="-19" a="-900" f="80,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ARDUINO</text>
+<text x="61" y="-29" f="280,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">8</text>
+<text x="62" y="-12" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">+</text>
+<text x="67" y="-44" a="-900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">-</text>
+<text x="-149" y="-69" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3.3V</text>
+<text x="-149" y="-99" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">RESET</text>
+<text x="-149" y="-129" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">IOREF</text>
+<text x="151" y="251" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Rx  0</text>
+<text x="151" y="221" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Tx  1</text>
+<text x="171" y="191" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">2</text>
+<text x="171" y="161" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3</text>
+<text x="171" y="131" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">4</text>
+<text x="171" y="101" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">5</text>
+<text x="171" y="71" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">6</text>
+<text x="171" y="41" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">7</text>
+<text x="171" y="1" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">8</text>
+<text x="171" y="-29" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">9</text>
+<text x="171" y="-59" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">10</text>
+<text x="171" y="-89" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">11</text>
+<text x="171" y="-119" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">12</text>
+<text x="171" y="-149" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">13</text>
+<text x="161" y="-179" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">GND</text>
+<text x="161" y="-209" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AREF</text>
+<text x="161" y="-239" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">SDA</text>
+<text x="161" y="-269" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">SCL</text>
+<text x="21" y="-349" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">USB</text>
+<text x="-149" y="-289" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Power</text>
+<text x="123" y="-392" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Reset</text>
+<text x="131" y="81" a="-900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">DIGITAL</text>
+<polyline pts="110,-160,110,260,"/>
+<rect left="-80" top="-150" right="-10" bottom="260" op-lc="10066329" op-fd="1" op-fc="10066329"/>
+<text x="-49" y="61" a="-900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ATmega</text>
+<rect left="80" top="220" right="90" bottom="240" op-fd="1" op-fc="65280"/>
+<text x="84" y="249" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">ON</text>
+<rect left="80" top="-170" right="90" bottom="-150" op-fd="1" op-fc="65535"/>
+<text x="94" y="-181" a="-900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">L</text>
+<rect left="50" top="-170" right="60" bottom="-150" op-fd="1" op-fc="65535"/>
+<rect left="30" top="-170" right="40" bottom="-150" op-fd="1" op-fc="65535"/>
+<text x="64" y="-191" a="-900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Tx</text>
+<text x="44" y="-191" a="-900" f="60,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">Rx</text>
+<polybezier pts="139,166,139,176,149,166,149,166,149,166,159,156,159,166,"/>
+<polybezier pts="139,106,139,116,149,106,149,106,149,106,159,96,159,106,"/>
+<polybezier pts="139,76,139,86,149,76,149,76,149,76,159,66,159,76,"/>
+<polybezier pts="139,-24,139,-14,149,-24,149,-24,149,-24,159,-34,159,-24,"/>
+<polybezier pts="139,-54,139,-44,149,-54,149,-54,149,-54,159,-64,159,-54,"/>
+<polybezier pts="139,-84,139,-74,149,-84,149,-84,149,-84,159,-94,159,-84,"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\electronics\Arduino.ppd" fG="b5c6ef23-a82f-4424-93ed-5ab193e092a0" lG="d776fc96-208d-4b66-a742-f061d3ee5cfe">
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-400" top="300" right="400" bottom="-300" op-lw="5" op-fd="1" op-fc="13421619"/>
+<rect left="-380" top="-250" right="-190" bottom="-290" op-fd="1" op-fc="0"/>
+<ellipse left="-370" top="-260" right="-350" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-340" top="-260" right="-320" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-310" top="-260" right="-290" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-280" top="-260" right="-260" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-250" top="-260" right="-230" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-220" top="-260" right="-200" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<rect left="-160" top="-250" right="90" bottom="-290" op-fd="1" op-fc="0"/>
+<ellipse left="-150" top="-260" right="-130" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-120" top="-260" right="-100" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-90" top="-260" right="-70" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-60" top="-260" right="-40" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-30" top="-260" right="-10" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="0" top="-260" right="20" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="30" top="-260" right="50" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="60" top="-260" right="80" bottom="-280" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<rect left="-380" top="290" right="-130" bottom="250" op-fd="1" op-fc="0"/>
+<ellipse left="-370" top="280" right="-350" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-340" top="280" right="-320" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-310" top="280" right="-290" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-280" top="280" right="-260" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-250" top="280" right="-230" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-220" top="280" right="-200" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-190" top="280" right="-170" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-160" top="280" right="-140" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<rect left="-110" top="290" right="140" bottom="250" op-fd="1" op-fc="0"/>
+<ellipse left="-100" top="280" right="-80" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-70" top="280" right="-50" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-40" top="280" right="-20" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="-10" top="280" right="10" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="20" top="280" right="40" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="50" top="280" right="70" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="80" top="280" right="100" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<ellipse left="110" top="280" right="130" bottom="260" op-lc="3355443" op-fd="1" op-fc="12632256"/>
+<rect left="200" top="-100" right="400" bottom="-200" op-fd="1" op-fc="0"/>
+<outlet x="400" y="-180"/>
+<outlet x="400" y="-120"/>
+<rect left="300" top="200" right="480" bottom="100" op-fd="1" op-fc="10066329"/>
+<outlet x="-360" y="-300"/>
+<outlet x="-330" y="-300"/>
+<outlet x="-300" y="-300"/>
+<outlet x="-270" y="-300"/>
+<outlet x="-240" y="-300"/>
+<outlet x="-210" y="-300"/>
+<outlet x="-140" y="-300"/>
+<outlet x="-110" y="-300"/>
+<outlet x="-80" y="-300"/>
+<outlet x="-50" y="-300"/>
+<outlet x="-20" y="-300"/>
+<outlet x="10" y="-300"/>
+<outlet x="40" y="-300"/>
+<outlet x="70" y="-300"/>
+<outlet x="-360" y="300"/>
+<outlet x="-330" y="300"/>
+<outlet x="-300" y="300"/>
+<outlet x="-270" y="300"/>
+<outlet x="-240" y="300"/>
+<outlet x="-210" y="300"/>
+<outlet x="-180" y="300"/>
+<outlet x="-150" y="300"/>
+<outlet x="-90" y="300"/>
+<outlet x="-60" y="300"/>
+<outlet x="-30" y="300"/>
+<outlet x="0" y="300"/>
+<outlet x="30" y="300"/>
+<outlet x="60" y="300"/>
+<outlet x="90" y="300"/>
+<outlet x="120" y="300"/>
+<text x="-286" y="-229" a="-1800" f="60,1,0,0,Arial,000000" l="1" al="9">A0 A1 A2 A3 A4 A5</text>
+<text x="41" y="-209" a="-900" f="60,1,0,0,Arial,000000" l="1" al="9">IOREF</text>
+<text x="11" y="-209" a="-900" f="60,1,0,0,Arial,000000" l="1" al="9">RESET</text>
+<text x="-19" y="-219" a="-900" f="60,1,0,0,Arial,000000" l="1" al="9">3.3V</text>
+<text x="-49" y="-229" a="-900" f="60,1,0,0,Arial,000000" l="1" al="9">5V</text>
+<text x="-79" y="-219" a="-900" f="60,1,0,0,Arial,000000" l="1" al="9">GND</text>
+<text x="-109" y="-219" a="-900" f="60,1,0,0,Arial,000000" l="1" al="9">GND</text>
+<text x="-140" y="-219" a="-900" f="60,1,0,0,Arial,000000" l="1" al="9">Vin</text>
+<text x="170" y="-149" a="900" f="60,1,0,0,Arial,000000" l="1" al="9">POWER</text>
+<text x="271" y="151" a="900" f="60,1,0,0,Arial,000000" l="1" al="9">Ethernet</text>
+<text x="-259" y="231" f="60,1,0,0,Arial,000000" l="1" al="9">0   1    2    3   4    5    6    7</text>
+<text x="-9" y="231" f="60,1,0,0,Arial,000000" l="1" al="9">8    9  10  11  12  13</text>
+<text x="-169" y="41" a="-1800" f="155,1,0,0,Lucida Sans Unicode,000000" l="1" al="9">ARDUINO</text>
+<ellipse left="-280" top="140" right="-170" bottom="70" op-lw="7"/>
+<ellipse left="-170" top="70" right="-60" bottom="140" op-lw="7"/>
+<text x="-224" y="109" a="-1800" f="155,0,0,0,Arial Black,000000" l="1" al="9">+</text>
+<text x="-117" y="113" a="-1800" f="155,0,0,0,Arial Black,000000" l="1" al="9">-</text>
+<rect left="-340" top="-160" right="60" bottom="-100" op-fd="1" op-fc="3355443"/>
+<roundRect left="60" top="-60" right="160" bottom="-20" rX="40" rY="40" op-fd="1" op-fc="10066329"/>
+<ellipse left="220" top="-220" right="260" bottom="-260" op-fd="1" op-fc="12632256"/>
+<ellipse left="280" top="-220" right="320" bottom="-260" op-fd="1" op-fc="12632256"/>
+<rect left="160" top="120" right="220" bottom="60" op-fd="1" op-fc="3355443"/>
+<rect left="305" top="280" right="365" bottom="220" op-fd="1" op-fc="12632256"/>
+<ellipse left="320" top="265" right="350" bottom="235" op-fd="1" op-fc="255"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electrical installations\switchgear and protective devices (ANSI)\switches and contactors\closing\make contact.ppd" n="EN 60617: 07-02-02" fG="d00f140c-3336-4387-8a23-b30da0ca713e" lG="dd70e2f8-2e5c-427a-b3d0-bb25d65ba38a">
+<layers current="0">
+<layer name="0" v="1">
+<polyline pts="0,32,0,60,"/>
+<polyline pts="0,-60,0,-30,"/>
+<polyline pts="0,30,-30,-30,"/>
+<outlet x="0" y="-60"/>
+<outlet x="0" y="60"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electronics\semiconductors and tubes\diodes\LED.ppd" t="D" v="HLMP7000" n="EN 60617: 05-03-02" fG="7a93ae27-f900-4f7b-935c-e129f590cabe" lG="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706">
+<layers current="0">
+<layer name="0" v="1">
+<polygon pts="-20,0,20,-20,20,20,"/>
+<polyline pts="-20,0,20,0,"/>
+<polyline pts="-20,-20,-20,20,"/>
+<outlet x="-20" y="0"/>
+<outlet x="20" y="0"/>
+<polyline pts="13,-45,-5,-27,"/>
+<polyline pts="13,-45,2,-39,"/>
+<polyline pts="13,-45,7,-34,"/>
+<polyline pts="24,-35,6,-17,"/>
+<polyline pts="24,-35,18,-24,"/>
+<polyline pts="24,-35,14,-29,"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="electrical installations\machines\starters\Altistart 48.ppd" fG="a2a0aaca-926a-4f39-a1d0-2a6421294f57" lG="ff9c0db1-af6a-4e54-ae94-09c8e90765c2">
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-353" top="-43" right="357" bottom="57"/>
+<outlet x="-320" y="-43"/>
+<outlet x="-289" y="-43"/>
+<outlet x="-257" y="-43"/>
+<outlet x="-257" y="57"/>
+<outlet x="-289" y="57"/>
+<outlet x="-273" y="57"/>
+<outlet x="-241" y="57"/>
+<outlet x="-304" y="57"/>
+<outlet x="-320" y="57"/>
+<outlet x="-193" y="57"/>
+<outlet x="-163" y="57"/>
+<outlet x="-133" y="57"/>
+<outlet x="-99" y="57"/>
+<outlet x="-67" y="57"/>
+<outlet x="-37" y="57"/>
+<outlet x="-126" y="-43"/>
+<outlet x="-63" y="-43"/>
+<outlet x="-3" y="57"/>
+<outlet x="27" y="57"/>
+<outlet x="60" y="57"/>
+<outlet x="90" y="57"/>
+<outlet x="123" y="57"/>
+<outlet x="157" y="57"/>
+<outlet x="187" y="57"/>
+<outlet x="217" y="57"/>
+<outlet x="247" y="57"/>
+<outlet x="280" y="57"/>
+<outlet x="312" y="57"/>
+<outlet x="344" y="57"/>
+<text x="-325" y="-17" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">1/L1</text>
+<text x="-293" y="-16" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">3/L2</text>
+<text x="-262" y="-16" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">5/L3</text>
+<text x="-324" y="31" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">2/T1</text>
+<text x="-292" y="32" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">4/T2</text>
+<text x="-261" y="32" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">6/T3</text>
+<text x="-309" y="38" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">A2</text>
+<text x="-278" y="38" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">B2</text>
+<text x="-245" y="40" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">C2</text>
+<text x="-197" y="29" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">STOP</text>
+<text x="-168" y="31" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">RUN</text>
+<text x="-137" y="38" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">LI3</text>
+<text x="-106" y="38" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">LI4</text>
+<text x="-73" y="33" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">+24V</text>
+<text x="-41" y="34" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">LO+</text>
+<text x="-11" y="33" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">LO1</text>
+<text x="-68" y="-19" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">CL2</text>
+<text x="-130" y="-19" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">CL1</text>
+<text x="24" y="33" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">LO2</text>
+<text x="55" y="32" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">AO1</text>
+<text x="86" y="31" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">COM</text>
+<text x="120" y="29" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">PTC1</text>
+<text x="150" y="29" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">PTC2</text>
+<text x="173" y="35" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">R1A</text>
+<text x="204" y="34" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">R1C</text>
+<text x="235" y="34" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">R2A</text>
+<text x="267" y="34" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">R2C</text>
+<text x="299" y="35" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">R3A</text>
+<text x="331" y="34" a="900" f="40,0,0,0,Lucida Sans Unicode,000000" l="1" al="9">R3C</text>
+<outlet x="58" y="-43"/>
+<polyline pts="343,53,343,-17,"/>
+<polyline pts="342,-17,314,-17,"/>
+<polyline pts="313,-17,313,3,"/>
+<polyline pts="313,20,313,53,"/>
+<polyline pts="313,20,303,0,"/>
+<polyline pts="278,53,278,-17,"/>
+<polyline pts="277,-17,249,-17,"/>
+<polyline pts="248,-17,248,3,"/>
+<polyline pts="248,20,248,53,"/>
+<polyline pts="248,20,238,0,"/>
+<polyline pts="216,53,216,-17,"/>
+<polyline pts="215,-17,187,-17,"/>
+<polyline pts="186,-17,186,3,"/>
+<polyline pts="186,20,186,53,"/>
+<polyline pts="186,20,176,0,"/>
+</layer>
+</layers>
+</ppd>
+<tb path="C:\Users\Public\Documents\ProfiCAD Library\_TB\standard9.ptb">
+<repo>
+<imgDesc lastGuid="e0cb5d27-345c-4bfc-be5c-bd4cb249e9b9" imgType="3">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S0UVwHWFFFFABUFxHvUip6QjNAHyt+1V+yPJ8e9a0bWNL1S20XVLOFrW4kuImdZ4t26P7vQqS/13e1eE/wDDtPxN/wBDlpP/AIDS1+jTW6t1FN+yL6V7mHzrG4WkqNOfurbRM8mtleFxFR1Jx1fmz85/+Hafib/octJ/8Bpa98/ZR/Zb1X9n3Udfur/xFFqq6nHDEttaRMkY2FjvbdyW+bAx0BbrkY+nPsi+lOW3VegoxGdY3FUnRqyvF+SCjleFw9RVacdV5srTQloq+JvjV+wVq3xI+J2u+J9N8VWdnb6pMLg293buXjYqAwypwRkZH19sn7m2ZGKia2Vu1cODxtfAzdSg7Nq3c68ThaWLioVldI/Ob/h2n4m/6HLSf/AaWj/h2n4m/wChy0n/AMBpa/Rj7IvpR9kX0r1/9Ysx/nX3L/I87+xcF/L+LPzn/wCHafib/octJ/8AAaWj/h2n4m/6HLSf/AaWv0Y+yL6UfZF9KP8AWLMf519y/wAg/sXBfy/iz85/+Hafib/octJ/8BpaP+Hafib/AKHLSf8AwGlr9GPsi+lH2RfSj/WLMf519y/yD+xcF/L+LPzn/wCHafib/octJ/8AAaWj/h2n4m/6HLSf/AaWv0Y+yL6UfZF9KP8AWLMf519y/wAg/sXBfy/iz8+tK/4Jm3sjKdS8ewQj+JbXTGkzz0BaVe3fFeu+A/8Agn78NfC88dxqceoeKbhTkLqEwSAEf9M4wuR7MWFfVItVHanrCF7VzVs7zCsrSqtLysvyN6eVYOk7xp/fr+Zi6H4bstC0+Cw06yt9PsYF2xWtrEsccY9FVQABWzHEEGBUm0UteI227s9TbRBRRRSGUr/7pr4c/aG/5LD4g/7d/wD0nir7lvIyyHFfMHxi+A/ibxd8QNQ1nSxazWl2sRAkm2MhWNUIII/2c/jQB85190fA/wD5Jj4Z/wCvUfzNfN//AAzJ43/54WX/AIFD/Cvqf4a+G7jwr4P0fSbl0kuLS3WORo87d3U4z25oA7VPuinU1elOoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAay7qrtaIxziiigBv2JPSpo4QnSiigCWloooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==</imgDesc>
+<imgDesc lastGuid="262982a0-ded6-42b7-8e13-ab52fac2d99b" imgType="3">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S0UVwHWFFFFABUFxHvUip6QjNAHyt+1V+yPJ8e9a0bWNL1S20XVLOFrW4kuImdZ4t26P7vQqS/13e1eE/wDDtPxN/wBDlpP/AIDS1+jTW6t1FN+yL6V7mHzrG4WkqNOfurbRM8mtleFxFR1Jx1fmz85/+Hafib/octJ/8Bpa98/ZR/Zb1X9n3Udfur/xFFqq6nHDEttaRMkY2FjvbdyW+bAx0BbrkY+nPsi+lOW3VegoxGdY3FUnRqyvF+SCjleFw9RVacdV5srTQloq+JvjV+wVq3xI+J2u+J9N8VWdnb6pMLg293buXjYqAwypwRkZH19sn7m2ZGKia2Vu1cODxtfAzdSg7Nq3c68ThaWLioVldI/Ob/h2n4m/6HLSf/AaWj/h2n4m/wChy0n/AMBpa/Rj7IvpR9kX0r1/9Ysx/nX3L/I87+xcF/L+LPzn/wCHafib/octJ/8AAaWj/h2n4m/6HLSf/AaWv0Y+yL6UfZF9KP8AWLMf519y/wAg/sXBfy/iz85/+Hafib/octJ/8BpaP+Hafib/AKHLSf8AwGlr9GPsi+lH2RfSj/WLMf519y/yD+xcF/L+LPzn/wCHafib/octJ/8AAaWj/h2n4m/6HLSf/AaWv0Y+yL6UfZF9KP8AWLMf519y/wAg/sXBfy/iz8+tK/4Jm3sjKdS8ewQj+JbXTGkzz0BaVe3fFeu+A/8Agn78NfC88dxqceoeKbhTkLqEwSAEf9M4wuR7MWFfVItVHanrCF7VzVs7zCsrSqtLysvyN6eVYOk7xp/fr+Zi6H4bstC0+Cw06yt9PsYF2xWtrEsccY9FVQABWzHEEGBUm0UteI227s9TbRBRRRSGUr/7pr4c/aG/5LD4g/7d/wD0nir7lvIyyHFfMHxi+A/ibxd8QNQ1nSxazWl2sRAkm2MhWNUIII/2c/jQB85190fA/wD5Jj4Z/wCvUfzNfN//AAzJ43/54WX/AIFD/Cvqf4a+G7jwr4P0fSbl0kuLS3WORo87d3U4z25oA7VPuinU1elOoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAay7qrtaIxziiigBv2JPSpo4QnSiigCWloooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==</imgDesc>
+</repo>
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-840" top="-200" right="840" bottom="200" op-lw="4"/>
+<text x="-829" y="-170" f="80,0,0,0,Tahoma,000000" al="2">Responsible dep.</text>
+<text x="-829" y="-114" f="90,1,0,0,Tahoma,000000" al="2">{dep}</text>
+<text x="-520" y="-170" f="80,0,0,0,Tahoma,000000" al="2">Technical reference</text>
+<text x="-520" y="-114" f="90,1,0,0,Tahoma,000000" al="2">{techRef}</text>
+<text x="-190" y="-170" f="80,0,0,0,Tahoma,000000" al="2">Created</text>
+<text x="-190" y="-114" f="90,1,0,0,Tahoma,000000" al="2">{author}</text>
+<text x="319" y="-170" f="80,0,0,0,Tahoma,000000" al="2">Approved</text>
+<text x="319" y="-114" f="90,1,0,0,Tahoma,000000" al="2">{approved}</text>
+<text x="-190" y="-48" f="80,0,0,0,Tahoma,000000" al="2">Document type</text>
+<text x="-190" y="8" f="90,1,0,0,Tahoma,000000" al="2">{docType}</text>
+<text x="319" y="-48" f="80,0,0,0,Tahoma,000000" al="2">Document status</text>
+<text x="319" y="8" f="90,1,0,0,Tahoma,000000" al="2">{docStatus}</text>
+<polyline op-lw="4" pts="-840,-80,840,-80,"/>
+<polyline op-lw="4" pts="-200,-200,-200,200,"/>
+<polyline op-lw="4" pts="-540,-200,-540,-80,"/>
+<polyline op-lw="4" pts="300,-200,300,200,"/>
+<polyline op-lw="4" pts="-200,40,840,40,"/>
+<text x="-190" y="70" f="80,0,0,0,Tahoma,000000" al="2">Title, supplementary title</text>
+<text x="-190" y="120" f="90,1,0,0,Tahoma,000000" al="2">{title}</text>
+<text x="-190" y="173" f="90,1,0,0,Tahoma,000000" al="2">{titleSup}</text>
+<text x="319" y="70" f="90,1,0,0,Tahoma,000000" al="2">{id}</text>
+<text x="832" y="173" f="90,1,0,0,Tahoma,000000" al="6">{_pcs}/{_pcsc}</text>
+<text x="730" y="10" f="90,1,0,0,Tahoma,000000" al="2">{rev}</text>
+<text x="750" y="-50" f="80,0,0,0,Tahoma,000000" al="2">Rev.</text>
+<text x="319" y="126" f="80,0,0,0,Tahoma,000000" al="2">Date of issue</text>
+<text x="595" y="126" f="80,0,0,0,Tahoma,000000" al="2">Lang.</text>
+<text x="319" y="173" f="90,1,0,0,Tahoma,000000" al="2">{date}</text>
+<text x="591" y="173" f="90,1,0,0,Tahoma,000000" al="2">{lng}</text>
+<text x="726" y="126" f="80,0,0,0,Tahoma,000000" al="2">Sheet</text>
+<polyline op-lw="4" pts="300,100,840,100,"/>
+<polyline op-lw="4" pts="580,40,580,200,"/>
+<polyline op-lw="4" pts="700,100,700,200,"/>
+<img lastGuid="e0cb5d27-345c-4bfc-be5c-bd4cb249e9b9" preserveAspect="1" left="-827" top="3" right="-220" bottom="151"/>
+<polyline op-lw="4" pts="700,-80,700,40,"/>
+<text x="630" y="70" f="80,0,0,0,Tahoma,000000" al="2">Scale</text>
+<text x="704" y="70" f="80,0,0,0,Tahoma,000000" al="2">{_sc}</text>
+</layer>
+</layers>
+</tb>
+</repo>
+<pages current="0">
+<page name="1" ori="1">
+<tb use="1"/>
+<summary>
+<field name="_potb" value="1"/>
+<field name="_sc" value=""/>
+<field name="title" value=""/>
+<field name="_po" value="1"/>
+<field name="_pcs" value=""/>
+<field name="_pa" value="1"/>
+<field name="titleSup" value=""/>
+<field name="_pcsc" value=""/>
+</summary>
+<layers current="1">
+<layer name="-1" v="1"/>
+<layer name="0" v="1">
+<elem lGuid="d776fc96-208d-4b66-a742-f061d3ee5cfe" x="360" y="860" a="-900">
+<attributes>
+<attribute name="_ref" value="1" v="0" custom="" al="6" x="-147" y="840"/>
+<attribute name="_type" value="" v="0" custom="" al="6" x="-147" y="880"/>
+</attributes>
+</elem>
+<elem lGuid="09e94adc-e671-4106-9aa1-bdb787f81431" x="1340" y="840" a="-1800">
+<attributes>
+<attribute name="_ref" value="R7" v="0" custom="" al="6" x="1275" y="820"/>
+<attribute name="_type" value="" v="0" custom="" al="6" x="1275" y="860"/>
+</attributes>
+</elem>
+<elem lGuid="09e94adc-e671-4106-9aa1-bdb787f81431" x="1540" y="840" a="-1800">
+<attributes>
+<attribute name="_ref" value="R8" v="0" custom="" al="6" x="1475" y="820"/>
+<attribute name="_type" value="" v="0" custom="" al="6" x="1475" y="860"/>
+</attributes>
+</elem>
+<elem lGuid="09e94adc-e671-4106-9aa1-bdb787f81431" x="2140" y="840" a="-1800">
+<attributes>
+<attribute name="_ref" value="R9" v="0" custom="" al="6" x="2075" y="820"/>
+<attribute name="_type" value="" v="0" custom="" al="6" x="2075" y="860"/>
+</attributes>
+</elem>
+<elem lGuid="09e94adc-e671-4106-9aa1-bdb787f81431" x="1740" y="840" a="-1800">
+<attributes>
+<attribute name="_ref" value="R10" v="0" custom="" al="6" x="1675" y="820"/>
+<attribute name="_type" value="" v="0" custom="" al="6" x="1675" y="860"/>
+</attributes>
+</elem>
+<elem lGuid="09e94adc-e671-4106-9aa1-bdb787f81431" x="2340" y="840" a="-1800">
+<attributes>
+<attribute name="_ref" value="R11" v="0" custom="" al="6" x="2275" y="820"/>
+<attribute name="_type" value="" v="0" custom="" al="6" x="2275" y="860"/>
+</attributes>
+</elem>
+<elem lGuid="09e94adc-e671-4106-9aa1-bdb787f81431" x="1940" y="840" a="-1800">
+<attributes>
+<attribute name="_ref" value="R12" v="0" custom="" al="6" x="1875" y="820"/>
+<attribute name="_type" value="" v="0" custom="" al="6" x="1875" y="860"/>
+</attributes>
+</elem>
+<elem lGuid="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1340" y="380" a="-1800">
+<attributes>
+<attribute name="_ref" value="R13" v="1" custom="" al="6" x="1305" y="360"/>
+<attribute name="_type" value="10K" v="1" custom="" al="6" x="1305" y="400"/>
+</attributes>
+</elem>
+<elem lGuid="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1540" y="380" a="-1800">
+<attributes>
+<attribute name="_ref" value="R14" v="1" custom="" al="6" x="1505" y="360"/>
+<attribute name="_type" value="10K" v="1" custom="" al="6" x="1505" y="400"/>
+</attributes>
+</elem>
+<elem lGuid="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1740" y="380" a="-1800">
+<attributes>
+<attribute name="_ref" value="R15" v="1" custom="" al="6" x="1705" y="360"/>
+<attribute name="_type" value="10K" v="1" custom="" al="6" x="1705" y="400"/>
+</attributes>
+</elem>
+<elem lGuid="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1940" y="380" a="-1800">
+<attributes>
+<attribute name="_ref" value="R16" v="1" custom="" al="6" x="1905" y="360"/>
+<attribute name="_type" value="10K" v="1" custom="" al="6" x="1905" y="400"/>
+</attributes>
+</elem>
+<elem lGuid="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="2140" y="380" a="-1800">
+<attributes>
+<attribute name="_ref" value="R17" v="1" custom="" al="6" x="2105" y="360"/>
+<attribute name="_type" value="10K" v="1" custom="" al="6" x="2105" y="400"/>
+</attributes>
+</elem>
+<elem lGuid="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="2340" y="380" a="-1800">
+<attributes>
+<attribute name="_ref" value="R18" v="1" custom="" al="6" x="2305" y="360"/>
+<attribute name="_type" value="10K" v="1" custom="" al="6" x="2305" y="400"/>
+</attributes>
+</elem>
+<elem lGuid="dd70e2f8-2e5c-427a-b3d0-bb25d65ba38a" x="960" y="1300" a="-900">
+<attributes>
+<attribute name="_ref" value="2" v="0" custom="" al="6" x="903" y="1280"/>
+<attribute name="_type" value="" v="0" custom="" al="6" x="903" y="1320"/>
+</attributes>
+</elem>
+<elem lGuid="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1220" y="1300" a="-900">
+<attributes>
+<attribute name="_ref" value="R19" v="1" custom="" al="6" x="1185" y="1280"/>
+<attribute name="_type" value="180" v="1" custom="" al="6" x="1185" y="1320"/>
+</attributes>
+</elem>
+<wire pts="1020,1300,1195,1300,"/>
+<wire pts="1220,1060,1220,920,2340,920,2340,864," drop1="1"/>
+<wire pts="2140,920,2140,864," drop1="1"/>
+<wire pts="1940,920,1940,864," drop1="1"/>
+<wire pts="1740,920,1740,864," drop1="1"/>
+<wire pts="1540,920,1540,864," drop1="1"/>
+<wire pts="1340,920,1340,864," drop1="1"/>
+<wire pts="1540,280,1540,356," drop1="1"/>
+<wire pts="1740,280,1740,356," drop1="1"/>
+<wire pts="1940,280,1940,356," drop1="1"/>
+<wire pts="2140,280,2140,356," drop1="1"/>
+<wire pts="2340,280,2340,356," drop1="1"/>
+<wire pts="1540,280,1340,280,1340,356,"/>
+<wire pts="1540,280,1740,280," drop2="1"/>
+<wire pts="1940,280,1740,280," drop2="1"/>
+<wire pts="2140,280,1940,280," drop2="1"/>
+<wire pts="2340,280,2140,280," drop2="1"/>
+<wire pts="1340,404,1340,816,"/>
+<wire pts="1540,404,1540,816,"/>
+<wire pts="1740,404,1740,816,"/>
+<wire pts="1940,404,1940,816,"/>
+<wire pts="2140,404,2140,816,"/>
+<wire pts="2340,404,2340,816,"/>
+<wire pts="660,750,720,750,720,1300,900,1300,"/>
+<wire pts="660,810,800,810,800,1060,1220,1060," drop2="1"/>
+<wire pts="660,650,1340,650," drop2="1"/>
+<wire pts="660,620,1540,620," drop2="1"/>
+<wire pts="660,590,1740,590," drop2="1"/>
+<wire pts="660,560,1940,560," drop2="1"/>
+<wire pts="660,530,2140,530," drop2="1"/>
+<wire pts="660,500,2340,500," drop2="1"/>
+<elem lGuid="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="1340" y="1180" a="900">
+<attributes>
+<attribute name="_ref" value="D1" v="1" custom="" al="6" x="1289" y="1160"/>
+<attribute name="_type" value="LASER" v="1" custom="" al="6" x="1289" y="1200"/>
+</attributes>
+</elem>
+<elem lGuid="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="1540" y="1180" a="900">
+<attributes>
+<attribute name="_ref" value="D2" v="1" custom="" al="6" x="1489" y="1160"/>
+<attribute name="_type" value="LASER" v="1" custom="" al="6" x="1489" y="1200"/>
+</attributes>
+</elem>
+<elem lGuid="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="1740" y="1180" a="900">
+<attributes>
+<attribute name="_ref" value="D3" v="1" custom="" al="6" x="1689" y="1160"/>
+<attribute name="_type" value="LASER" v="1" custom="" al="6" x="1689" y="1200"/>
+</attributes>
+</elem>
+<elem lGuid="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="1940" y="1180" a="900">
+<attributes>
+<attribute name="_ref" value="D4" v="1" custom="" al="6" x="1889" y="1160"/>
+<attribute name="_type" value="LASER" v="1" custom="" al="6" x="1889" y="1200"/>
+</attributes>
+</elem>
+<elem lGuid="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="2140" y="1180" a="900">
+<attributes>
+<attribute name="_ref" value="D5" v="1" custom="" al="6" x="2089" y="1160"/>
+<attribute name="_type" value="LASER" v="1" custom="" al="6" x="2089" y="1200"/>
+</attributes>
+</elem>
+<elem lGuid="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="2340" y="1180" a="900">
+<attributes>
+<attribute name="_ref" value="D6" v="1" custom="" al="6" x="2289" y="1160"/>
+<attribute name="_type" value="LASER" v="1" custom="" al="6" x="2289" y="1200"/>
+</attributes>
+</elem>
+<wire pts="1220,1060,1340,1060," drop2="1"/>
+<wire pts="1340,1060,1340,1160,"/>
+<wire pts="1340,1200,1340,1300," drop2="1"/>
+<wire pts="1245,1300,1340,1300," drop2="1"/>
+<wire pts="1340,1060,2140,1060," drop2="1"/>
+<wire pts="1340,1300,2140,1300," drop2="1"/>
+<wire pts="2140,1200,2140,1300," drop2="1"/>
+<wire pts="2140,1060,2140,1160,"/>
+<wire pts="1940,1060,1940,1160," drop1="1"/>
+<wire pts="1940,1200,1940,1300," drop2="1"/>
+<wire pts="1740,1060,1740,1160," drop1="1"/>
+<wire pts="1740,1200,1740,1300," drop2="1"/>
+<wire pts="1540,1060,1540,1160," drop1="1"/>
+<wire pts="1540,1200,1540,1300," drop2="1"/>
+<wire pts="2340,1300,2140,1300," drop2="1"/>
+<wire pts="2140,1060,2340,1060,2340,1160,"/>
+<wire pts="2340,1200,2340,1300," drop2="1"/>
+<wire pts="720,1300,720,1360,2420,1360,2420,280,2340,280," drop1="1" drop2="1"/>
+</layer>
+</layers>
+</page>
+</pages>
+</document>
